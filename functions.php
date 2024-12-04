@@ -10,7 +10,7 @@ function connect() {
 
     // Set the username and password with permissions to the database
     $username = 'root';
-    $password = '';
+    $password = 'root';
     
     // Create the DSN (data source name) by combining the database type, hostname and dbname
     $dsn = "mysql:host=$hostname;dbname = $dbname";
