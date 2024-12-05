@@ -3,14 +3,14 @@
 // Connect to the database and return the database object
 function connect() {
     // Set the hostname for phpMyAdmin platform
-    $hostname = 'root';
+    $hostname = 'localhost';
 
     // Set the database name
     $dbname = 'ccuser';
 
     // Set the username and password with permissions to the database
     $username = 'root';
-    $password = [null];
+    $password = '';
     
     // Create the DSN (data source name) by combining the database type, hostname and dbname
     $dsn = "mysql:host=$hostname;dbname = $dbname";
